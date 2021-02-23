@@ -1,0 +1,66 @@
+.card2 {
+	background-color: white;
+	width: fit-content;
+	border-radius: 20px;
+	min-width: 310px;
+	-webkit-box-shadow: -16px 41px 50px 31px rgba(0, 0, 0, 0.27);
+	box-shadow: -16px 41px 50px 31px rgba(0, 0, 0, 0.27);
+	position: absolute;
+}
+
+.card2a {
+	top: 300px;
+	right: 100px;
+}
+
+.card2b {
+	top: 500px;
+	right: 100px;
+}
+
+.card2-top {
+	display: flex;
+	gap: 25px;
+	img {
+		background-color: #dee7f5;
+		border-radius: 20px;
+	}
+
+	.card2-temp {
+		font-size: 2rem;
+		font-weight: 700;
+		position: relative;
+		padding-right: 30px;
+		border-right: 2px solid rgb(236, 236, 236);
+
+		small {
+			font-size: 1rem;
+			color: gray;
+			position: absolute;
+			top: 5px;
+		}
+	}
+
+	.card2-place {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		p {
+			margin: 0;
+			font-weight: 600;
+		}
+		.city {
+			font-size: 1.3rem;
+		}
+	}
+}
+
+.card2-bottom {
+	display: flex;
+	justify-content: space-around;
+
+	p {
+		color: gray;
+	}
+}

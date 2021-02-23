@@ -1,0 +1,59 @@
+.forecast-card {
+	background-color: white;
+	display: flex;
+	width: fit-content;
+	border-radius: 20px;
+	margin-top: 10px;
+	height: 100px;
+	-webkit-box-shadow: -16px 41px 50px 31px rgba(0, 0, 0, 0.09);
+	box-shadow: -16px 41px 50px 31px rgba(0, 0, 0, 0.09);
+
+	img {
+		width: 60px;
+		height: 60px;
+		align-self: center;
+	}
+
+	.card-center {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.day {
+		font-weight: 600;
+		width: 100px;
+		margin: 0;
+	}
+
+	.day-condition {
+		color: rgba(0, 0, 0, 0.603);
+		margin: 0;
+	}
+
+	.right-temp {
+		background-color: #dce8f4;
+		margin: 0;
+		border-radius: 20px;
+		display: flex;
+		align-items: center;
+		font-size: 1.2rem;
+		font-weight: 600;
+		margin-left: 10px;
+		width: 100px;
+		justify-content: center;
+		small {
+			font-size: 0.8rem;
+		}
+	}
+}
+
+.add-location {
+	position: absolute;
+	top: 700px;
+	right: 100px;
+
+	img {
+		border-radius: 20px;
+	}
+}
