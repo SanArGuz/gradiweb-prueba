@@ -12,7 +12,19 @@ const ForecastCard = ({ forecast, i }) => {
 	weekday[5] = "Friday"
 	weekday[6] = "Saturday"
 
-	var day = weekday[d.getDay() + i + 1]
+	let count
+
+	if (d.getDay() + i + 1 === 7) {
+		count = 0
+	} else if (d.getDay() + i + 1 === 8) {
+		count = 1
+	} else if (d.getDay() + i + 1 === 9) {
+		count = 2
+	} else {
+		count = d.getDay() + i + 1
+	}
+
+	var day = weekday[count]
 
 	return (
 		<div className="forecast-card">
